@@ -5,14 +5,14 @@
     <name>Login Page Button</name>
     <summary>This app will place a single button with a custom link on the login page</summary>
     <description><![CDATA[This app will place a single button with a custom link on the login page]]></description>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <licence>agpl</licence>
     <author mail="kano@sunet.se" homepage="https://sunet.se">Micke Nordin</author>
     <namespace>LoginPageButton</namespace>
     <category>integration</category>
-    <bugs>https://github.com/SUNET/</bugs>
+    <bugs>https://github.com/SUNET/loginpagebutton/issues</bugs>
     <dependencies>
-        <nextcloud min-version="20" max-version="22"/>
+        <nextcloud min-version="20" max-version="23"/>
     </dependencies>
     <navigations>
         <navigation>

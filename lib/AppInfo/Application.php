@@ -9,7 +9,7 @@ use OCP\AppFramework\Bootstrap\IRegistrationContext;
 use OCA\LoginPageButton\LoginPageOption;
 
 class Application extends App implements IBootstrap {
-    private $appName = 'login_page_button'
+    private $appName = 'login_page_button';
     public function __construct()
     {
         parent::__construct($this->appName);

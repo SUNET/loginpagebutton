@@ -16,12 +16,12 @@ class LoginPageOption implements IAlternativeLogin {
 
     public function getLabel(): string
     {
-    	return $this->l->t($this->config->getSystemValue('login_page_button_text', 'SUNET'));
+    	return $this->config->getSystemValue('login_page_button_text', 'SUNET');
     }
     
     public function getLink(): string
     {
-    	return $this->l->t($this->config->getSystemValue('login_page_button_link', 'https://sunet.se'));
+    	return $this->config->getSystemValue('login_page_button_link', 'https://sunet.se');
     }
     
     public function getClass(): string
